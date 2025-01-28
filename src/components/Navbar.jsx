@@ -59,33 +59,33 @@ const Navbar = () => {
         </div>
         <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium">
           <a
-            href=""
+            href="#Header"
             className="px-4 py-2 rounded-full inline-block"
-            id="#Header"
+            id="Header"
             onClick={() => setShowMobileMenu(false)}
           >
             Home
           </a>
           <a
-            href=""
+            href="#About"
             className="px-4 py-2 rounded-full inline-block"
-            id="#About"
+            id="About"
             onClick={() => setShowMobileMenu(false)}
           >
             About
           </a>
           <a
-            href=""
+            href="#Projects"
             className="px-4 py-2 rounded-full inline-block"
-            id="#Projects"
+            id="Projects"
             onClick={() => setShowMobileMenu(false)}
           >
             Projects
           </a>
           <a
-            href=""
+            href="#Testimonials"
             className="px-4 py-2 rounded-full inline-block"
-            id="#Testimonials"
+            id="Testimonials"
             onClick={() => setShowMobileMenu(false)}
           >
             Testimonials
