@@ -1,3 +1,4 @@
+import About from "./components/about";
 import Header from "./components/Header";
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
     <>
       <div className="w-full overflow-hidden">
         <Header />
+        <About/>
       </div>
     </>
   );
