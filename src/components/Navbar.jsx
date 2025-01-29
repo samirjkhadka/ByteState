@@ -16,7 +16,7 @@ const Navbar = () => {
   }, [showMobileMenu]);
 
   return (
-    <div className="absolute top-0 left-0 w-full z-10 fixed">
+    <div className=" top-0 left-0 w-full z-10 fixed bg-transparent">
       <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent">
         <img src={assets.logo} alt="" className="" />
         <ul className="hidden md:flex gap-7 text-white">
@@ -61,7 +61,7 @@ const Navbar = () => {
           <a
             href="#Header"
             className="px-4 py-2 rounded-full inline-block"
-            id="Header"
+            id="header"
             onClick={() => setShowMobileMenu(false)}
           >
             Home
@@ -69,7 +69,7 @@ const Navbar = () => {
           <a
             href="#About"
             className="px-4 py-2 rounded-full inline-block"
-            id="About"
+            id="about"
             onClick={() => setShowMobileMenu(false)}
           >
             About
@@ -77,7 +77,7 @@ const Navbar = () => {
           <a
             href="#Projects"
             className="px-4 py-2 rounded-full inline-block"
-            id="Projects"
+            id="projects"
             onClick={() => setShowMobileMenu(false)}
           >
             Projects
@@ -85,7 +85,7 @@ const Navbar = () => {
           <a
             href="#Testimonials"
             className="px-4 py-2 rounded-full inline-block"
-            id="Testimonials"
+            id="testimonials"
             onClick={() => setShowMobileMenu(false)}
           >
             Testimonials
